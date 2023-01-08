@@ -64,3 +64,4 @@ ssh -i /home/rbanala/.ssh/id_rsa root@ec2-18-232-78-226.compute-1.amazonaws.com 
    32  ls
    33  history
    34  history >> cloud9commands.txt
+   someone made changes from github
