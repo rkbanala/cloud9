@@ -1,0 +1,66 @@
+    1  docker ps
+    2  git
+    3  docker ps
+    4  docker ps -a
+    5  sudo systemctl status docker
+    6  sudo systemctl status httpd
+    7  python
+    8  pythonjava -version
+    9  java -version
+   10  javac -version
+   11  aws s3 ls
+   12  docker images
+   13  history > cloud9commands.txt
+ssh-keygen
+ls -ltr /home/rbanala/.ssh
+cat /home/rbanala/.ssh/id_rsa.pub
+<copy>
+
+# go to cloud9 machine
+vi ~/.ssh/authorized_keys
+shift+G last line
+$ last character
+a
+<enter>
+paste
+esc
+:x
+
+#go to ubuntu
+ssh -i /home/rbanala/.ssh/id_rsa root@ec2-18-232-78-226.compute-1.amazonaws.com [ec2-user or root whatever is the user the one before .~$ when you do copy paste into auth keys]
+'you can get command going to cloud 9 instance and connect'
+
+    1  docker ps
+    2  git
+    3  docker ps
+    4  docker ps -a
+    5  sudo systemctl status docker
+    6  sudo systemctl status httpd
+    7  python
+    8  pythonjava -version
+    9  java -version
+   10  javac -version
+   11  aws s3 ls
+   12  docker images
+   13  history > cloud9commands.txt
+   14  sudo systemctl start httpd
+   15  sudo systemctl status httpd
+   16  telnet localhost 80
+   17  sudo yum install telnet -y
+   18  telnet localhost 80
+   19  df -h
+   20  ls -ltr .ssh
+   21  cd 
+   22  pwd
+   23  ls -ltr. ssh
+   24  ls -ltr .ssh
+   25  vi .ssh/authorized_keys
+   26  tail -1 ~/.ssh/authorized_keys
+   27  vi .ssh/authorized_keys
+   28  tail -1 ~/.ssh/authorized_keys
+   29  pwd
+   30  ls
+   31  cd environment
+   32  ls
+   33  history
+   34  history >> cloud9commands.txt
